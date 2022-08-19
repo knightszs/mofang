@@ -1,4 +1,6 @@
-FROM registry.cn-hangzhou.aliyuncs.com/acr-toolkit/ack-cube:1.0
+FROM nginx
+
+ADD   Artifacts_1888824    /usr/share/nginx/html/
 
 EXPOSE 80
 
