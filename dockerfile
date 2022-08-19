@@ -1,6 +1,6 @@
 FROM nginx
 
-ADD   ./Artifacts_1888824    /usr/share/nginx/html/
+COPY   ./node_modules/_lodash@4.17.21@lodash/*    /usr/share/nginx/html/
 
 EXPOSE 80
 
